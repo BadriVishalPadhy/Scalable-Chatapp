@@ -3,16 +3,16 @@ import Redis from 'ioredis';
 import { channel } from "diagnostics_channel";
 
 const pub = new Redis({
-  host: 'caching-bd6dd65-badrivishalpadhy-53e7.h.aivencloud.com',
-  port: 15877,
+  host: '',
+  port: 1111,
   username:'default',
-  password:'AVNS_3umARt7Uu4Z0kIEoxJ8'
+  password:''
 });
 const sub = new Redis({
-  host: 'caching-bd6dd65-badrivishalpadhy-53e7.h.aivencloud.com',
-  port: 15877,
-  username:'default',
-  password:'AVNS_3umARt7Uu4Z0kIEoxJ8'
+  host: '',
+  port: 1111,
+  username:'',
+  password:''
 })
 
 class SocketService{
