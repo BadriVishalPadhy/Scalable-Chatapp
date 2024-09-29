@@ -2,18 +2,18 @@ import { Server } from "socket.io";
 import Redis from 'ioredis';
 import { channel } from "diagnostics_channel";
 
-const pub = new Redis({
-  host: '',
-  port: 1111,
-  username:'default',
-  password:''
-});
-const sub = new Redis({
-  host: '',
-  port: 1111,
-  username:'',
-  password:''
-})
+// const pub = new Redis({
+//   host: '',
+//   port: 1111,
+//   username:'default',
+//   password:''
+// });
+// const sub = new Redis({
+//   host: '',
+//   port: 1111,
+//   username:'',
+//   password:''
+// })
 
 class SocketService{
   static initListeners() {
